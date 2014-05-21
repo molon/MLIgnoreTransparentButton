@@ -24,6 +24,10 @@
 		36C3B7D2192C49AC00B6063D /* MLButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C3B7CC192C49AC00B6063D /* MLButton.m */; };
 		36C3B7D3192C49AC00B6063D /* ObjcRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C3B7CF192C49AC00B6063D /* ObjcRuntime.m */; };
 		36C3B7D4192C49AC00B6063D /* UIView+ColorPointAndMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C3B7D1192C49AC00B6063D /* UIView+ColorPointAndMask.m */; };
+		36C3B7D7192C4A4700B6063D /* test1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36C3B7D5192C4A4700B6063D /* test1@2x.png */; };
+		36C3B7D8192C4A4700B6063D /* test2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36C3B7D6192C4A4700B6063D /* test2@2x.png */; };
+		36C3B7DA192C4B0500B6063D /* car.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36C3B7D9192C4B0500B6063D /* car.jpg */; };
+		36C3B7DC192C4B1300B6063D /* mask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36C3B7DB192C4B1300B6063D /* mask@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +66,10 @@
 		36C3B7CF192C49AC00B6063D /* ObjcRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjcRuntime.m; sourceTree = "<group>"; };
 		36C3B7D0192C49AC00B6063D /* UIView+ColorPointAndMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ColorPointAndMask.h"; sourceTree = "<group>"; };
 		36C3B7D1192C49AC00B6063D /* UIView+ColorPointAndMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ColorPointAndMask.m"; sourceTree = "<group>"; };
+		36C3B7D5192C4A4700B6063D /* test1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test1@2x.png"; sourceTree = "<group>"; };
+		36C3B7D6192C4A4700B6063D /* test2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test2@2x.png"; sourceTree = "<group>"; };
+		36C3B7D9192C4B0500B6063D /* car.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = car.jpg; sourceTree = "<group>"; };
+		36C3B7DB192C4B1300B6063D /* mask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mask@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +129,10 @@
 		36C3B79B192C499C00B6063D /* MLIgnoreTransparentButton */ = {
 			isa = PBXGroup;
 			children = (
+				36C3B7D5192C4A4700B6063D /* test1@2x.png */,
+				36C3B7D6192C4A4700B6063D /* test2@2x.png */,
+				36C3B7D9192C4B0500B6063D /* car.jpg */,
+				36C3B7DB192C4B1300B6063D /* mask@2x.png */,
 				36C3B7CA192C49AC00B6063D /* MLButton */,
 				36C3B7A4192C499C00B6063D /* AppDelegate.h */,
 				36C3B7A5192C499C00B6063D /* AppDelegate.m */,
@@ -259,7 +271,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36C3B7DA192C4B0500B6063D /* car.jpg in Resources */,
 				36C3B7AE192C499C00B6063D /* Images.xcassets in Resources */,
+				36C3B7D8192C4A4700B6063D /* test2@2x.png in Resources */,
+				36C3B7D7192C4A4700B6063D /* test1@2x.png in Resources */,
+				36C3B7DC192C4B1300B6063D /* mask@2x.png in Resources */,
 				36C3B7A0192C499C00B6063D /* InfoPlist.strings in Resources */,
 				36C3B7A9192C499C00B6063D /* Main.storyboard in Resources */,
 			);
