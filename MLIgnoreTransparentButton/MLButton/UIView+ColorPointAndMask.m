@@ -85,7 +85,7 @@ inline static CGRect CGRectCenterRectForResizableImage(UIImage *image) {
     
     //这里只有当前对象使用过setMaskWithImage方法后才会同步修正mask的frame，否则不修正
     //没办法，因为用了objcruntime，所以需要尽量的去防止意外情况。
-    if(self.layer.mask&&[self.layer.isUseSetMaskWithImage boolValue]){
+    if(self.layer.mask&&self.layer.isUseSetMaskWithImage&&[self.layer.isUseSetMaskWithImage boolValue]){
         self.layer.mask.frame = CGRectMake(0, 0, frame.size.width, frame.size.height);
     }
 }
